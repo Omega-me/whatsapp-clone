@@ -1,0 +1,21 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #25d366;
+  img {
+    width: 120px;
+    object-fit: contain;
+  }
+  button {
+    color: white;
+    background-color: #25d366;
+    border: 1px solid white;
+    &:hover {
+      background-color: #58d485 !important;
+    }
+  }
+}

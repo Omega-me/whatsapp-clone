@@ -1,0 +1,41 @@
+.sidebarChat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px 10px;
+  cursor: pointer;
+  width: 100%;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  border-bottom: 1px solid #e4e4e4;
+  background-color: #ffffff;
+}
+
+.sidebarChat:hover {
+  background-color: #ebebeb;
+}
+
+.sidebarChat .room {
+  margin-left: 10px;
+}
+
+.sidebarChat .room h2 {
+  color: #686868;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.sidebarChat .room p {
+  font-size: 0.9rem;
+}
+
+.addNewChat h2 {
+  font-weight: 400;
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+.link {
+  color: #3f3f3f;
+}
+/*# sourceMappingURL=SidebarChat.css.map */
